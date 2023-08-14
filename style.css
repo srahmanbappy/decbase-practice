@@ -1,6 +1,6 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
-/* style rule for deafult */
+/* style rule for default */
 :root {
   --primary-color: #CAA892;
   --secondary-color: #37806B;
@@ -39,7 +39,7 @@
 }
 
 
-/* common componant */
+/* common component */
 body{
   font-family: var(--font-family-poppins);
   font-family: var(--font-family-open);
@@ -76,7 +76,7 @@ nav ul li a{
   font-weight: var(--font-semibold);
 }
 
-.nav-btn {
+.nav-btn a{
   background-color: var(--primary-color);
   border-radius: 15px 0px ;
   color: var(--white-color);
@@ -92,7 +92,7 @@ nav ul li a{
 }
 
 .head h4{
-  margin-top: 192px;
+  margin-top: 111px;
   font-family: var(--font-family-open);
   font-size: var(--font-20px);
   font-weight: var(--font-semibold);
@@ -120,7 +120,18 @@ nav ul li a{
 }
 
 .con-btn{
-  
+  margin-top: 46px;
+  margin-bottom: 265px;
+  background-color: var(--secondary-color);
+  max-width: fit-content;
+  border-radius: 15px 0px;
+  color: var(--white-color);
+  font-family: var(--font-family-open);
+  font-size: var(--font-18px);
+  font-weight: var(--font-bold);
+  padding: 18px 35px;
+  text-transform: uppercase;
+
 }
 
 .head > .hero-img{
