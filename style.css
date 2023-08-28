@@ -461,7 +461,7 @@ nav ul li a{
 .box-container2  h2 {
   color: #212121;
   text-align: center;
-  font-family: var(--font-family-open)
+  font-family: var(--font-family-open);
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
@@ -471,7 +471,7 @@ nav ul li a{
 .box-container2  h6 {
   text-align: center;
   color: #646464;
-  font-family: var(--font-family-open)
+  font-family: var(--font-family-open);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
